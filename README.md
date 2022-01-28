@@ -1,6 +1,7 @@
 # AvengersHQ
 
-This website is a fun way for fans to learn about the Marvel Cinematic Universe. It contains a main navigation menu, in-page navigation, and contact form.
+This website is a fun way for fans to learn about the Marvel Cinematic Universe.  
+It contains a main navigation menu, in-page navigation, and contact form.
 
 Website hosted on the TCNJ web server  
 Designed using HTML, CSS, and JavaScript for IMM130: Design Fundamentals for the Web
