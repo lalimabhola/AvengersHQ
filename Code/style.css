@@ -1,0 +1,1378 @@
+/*first box going inward from entire background*/
+
+.all_content {
+    background-color: #06070f;
+    margin: 0;
+    padding: 1rem 0 1rem;
+}
+
+.all_content>h1,
+.main_title {
+    padding: 0.625rem;
+    padding: 0.3125rem;
+}
+
+.main_title,
+.slides {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+
+.main_title:nth-of-type(odd) {
+    background-color: #6ba4ff;
+    display: flex;
+}
+
+.main_title:nth-of-type(even) {
+    background-color: #142857;
+    display: flex;
+    justify-content: space-between;
+}
+
+.biography {
+    background-color: #6ba4ff;
+    justify-content: space-between;
+    padding: 1rem 2.5rem;
+}
+
+.hero-profile {
+    width: 50%;
+}
+
+.hero-desc {
+    width: 50%;
+}
+
+.movie-profile {
+    width: 50%;
+}
+
+.movie-stats {
+    width: 50%;
+}
+
+.villain-profile {
+    width: 50%;
+}
+
+.villain-desc {
+    width: 50%;
+}
+
+
+/*contact form dimensions and such...*/
+
+.contact_form {
+    background-color: #6ba4ff;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    display: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 0.05rem solid #ccc;
+    border-radius: 0.5rem;
+    resize: vertical;
+}
+
+label {
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+    padding: inherit;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: red;
+    color: white;
+    padding: 0.75rem 1.25rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    float: right;
+    font-size: 1.1rem;
+    margin-right: 2.5rem;
+    margin-top: 1rem;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+input[type=reset] {
+    background-color: red;
+    color: white;
+    padding: 0.75rem 1.25rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    float: left;
+    margin-left: 2.5rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+input[type=reset]:hover {
+    background-color: black;
+}
+
+.form_names {
+    float: left;
+    width: 20%;
+    padding-top: 0.6rem;
+    padding-left: 1rem;
+}
+
+.form_names2 {
+    float: left;
+    width: 65%;
+    padding-top: 0.5rem;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.alt_title .all_content h1 {
+    font-family: Roboto, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1.875rem;
+    color: #1B262C;
+}
+
+h1 {
+    font-family: Roboto, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    color: white;
+}
+
+b,
+h2 {
+    font-family: Roboto, sans-serif;
+    margin-bottom: -0.5rem;
+    color: white;
+    font-size: 1.625rem;
+}
+
+.all_content h2 {
+    font-family: Roboto, sans-serif;
+    font-size: 1.625rem;
+    margin-top: 2rem;
+    margin-bottom: 0.9375rem;
+    color: white;
+}
+
+div h2 {
+    font-family: Roboto, sans-serif;
+    margin-bottom: 1.25rem;
+    color: white;
+    font-size: 1.5625rem;
+}
+
+h3 {
+    font-family: Verdana, sans-serif;
+    margin-bottom: 0.625rem;
+    color: white;
+    font-size: 1.3125rem;
+}
+
+blockquote {
+    margin: 1.5rem 0.625rem;
+    font-family: Verdana, sans-serif;
+    color: white;
+    font-size: 1.125rem;
+    margin-bottom: 1.25rem;
+}
+
+blockquote:before {
+    color: white;
+    content: open-quote;
+    font-size: 2rem;
+    line-height: 0.1rem;
+    vertical-align: -0.4rem;
+}
+
+blockquote:after {
+    content: close-quote;
+    color: white;
+    font-size: 2rem;
+    line-height: 0.1rem;
+    vertical-align: -0.4rem;
+}
+
+blockquote p {
+    display: inline;
+}
+
+p {
+    font-family: Verdana, sans-serif;
+    color: white;
+    font-size: 1.125rem;
+    margin-bottom: 2.5rem;
+}
+
+body {
+    /*entire background of page*/
+    background: #06070f;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem 1rem 2rem;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+a {
+    font-family: Verdana, sans-serif;
+    color: #6ba4ff;
+}
+
+a:hover {
+    color: #cf171d;
+}
+
+
+/*display by button on movies pages*/
+
+nav.btn {
+    background-color: #f7f7f7;
+    margin-right: 2.75rem;
+    margin-left: 2.75rem;
+    margin: 0 auto;
+    margin-top: 2%;
+    max-width: 40%;
+}
+
+nav.btn a {
+    color: black;
+    text-decoration: none;
+}
+
+nav.btn ul {
+    text-align: left;
+    display: inline;
+    padding: 1rem;
+    list-style: none;
+}
+
+nav.btn ul li {
+    font-size: 1.125rem;
+    font-family: Verdana, sans-serif;
+    font-style: normal;
+}
+
+nav.btn ul a:hover {
+    background-color: lightgray;
+}
+
+
+/*main navigation bar*/
+
+nav {
+    background-color: #cf171d;
+    margin-bottom: 1.1875rem;
+    margin-top: 1.25rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    float: none;
+}
+
+nav ul a {
+    text-align: left;
+    padding: 1rem 2rem;
+}
+
+nav ul a:hover {
+    color: black;
+}
+
+
+/*dimensions of main navigation bar (text)*/
+
+nav ul li {
+    font: bold 1rem sans-serif;
+    font-size: 1rem;
+    display: inline-block;
+    position: relative;
+    padding: 1rem;
+    font-style: italic;
+}
+
+
+/* when you hover over navigation and dropdown menus */
+
+nav ul li a:hover {
+    background-color: white;
+    font-style: normal;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+div.stan {
+    margin-bottom: 1.25rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*dropdown for heroes and villains*/
+
+div.dropdown nav {
+    text-align: center;
+    margin-bottom: 1.5625rem;
+    margin-left: 3.75rem;
+    margin-right: 3.75rem;
+    margin-top: 0.625rem;
+    max-width: 18rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+div.dropdown nav ul li ul {
+    padding: 0rem 0rem 0rem 3rem;
+    position: absolute;
+    top: 1.5rem;
+    left: -5.5rem;
+    display: none;
+    visibility: hidden;
+}
+
+div.dropdown nav ul li ul li {
+    background: #cf171d;
+    display: block;
+}
+
+div.dropdown nav ul a {
+    margin-left: -3.5rem;
+    display: block;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+}
+
+div.dropdown nav ul a:hover {
+    color: black;
+}
+
+div.dropdown nav ul li:hover ul {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    width: 18.125rem;
+    overflow-y: scroll;
+    height: 14rem;
+    background-color: #cf171d;
+}
+
+
+/*dropdown for movies and movies2 pages*/
+
+div.movie_drop nav {
+    text-align: center;
+    margin-bottom: 1.5625rem;
+    margin-left: 3.75rem;
+    margin-right: 3.75rem;
+    margin-top: 0.625rem;
+    max-width: 18rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+div.movie_drop nav ul li ul li {
+    background-color: #cf171d;
+    display: block;
+}
+
+div.movie_drop nav ul a {
+    margin-left: -3.5rem;
+    display: block;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+}
+
+div.movie_drop nav ul a:hover {
+    color: black;
+}
+
+div.movie_drop nav ul li ul {
+    padding: 0rem 0rem 0rem 3rem;
+    position: absolute;
+    top: 1rem;
+    left: -6.75rem;
+    display: none;
+    visibility: hidden;
+}
+
+div.movie_drop nav ul li:hover ul {
+    display: block;
+    visibility: visible;
+    width: 18rem;
+    overflow-y: scroll;
+    height: 14rem;
+    background-color: #cf171d;
+}
+
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: red;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
+
+
+/* Responsive navigation menu (for phone-sized devices) */
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.75rem;
+        margin-bottom: 1rem;
+        margin-top: 0.5rem;
+    }
+    .all_content h2 {
+        font-size: 1.7rem;
+        margin-top: 1rem;
+    }
+    .all_content,
+    .movieTitle h2 {
+        margin-top: -1.25rem;
+    }
+    .main_title img {
+        max-width: 90%;
+        margin-top: 1rem;
+    }
+    .main_title {
+        flex-direction: column;
+    }
+    .villain-profile,
+    .villain-desc {
+        width: 100%;
+    }
+    .villain-desc {
+        order: 1;
+    }
+    .hero-profile,
+    .hero-desc {
+        width: 100%;
+    }
+    .hero-desc {
+        order: 1;
+    }
+    .movie-profile,
+    .movie-stats {
+        width: 100%;
+    }
+    .movie-stats {
+        order: 1;
+    }
+    .movie-stats h2 {
+        font-size: 1.2rem;
+    }
+    img {
+        max-width: 60%;
+    }
+    .logo {
+        max-width: 50px;
+    }
+    /*main navigation bar*/
+    nav ul a {
+        text-align: center;
+        padding: 1rem 1rem;
+        margin-left: -2.3rem;
+    }
+    /*dimensions of main navigation bar (text)*/
+    nav ul li {
+        font-size: 0.95rem;
+        padding: 0.5rem 0.5rem;
+    }
+    .all_content {
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    }
+    blockquote {
+        margin: 0.8rem 0.625rem;
+        font-size: 1rem;
+        margin-bottom: -0.25rem;
+    }
+    blockquote:before {
+        font-size: 1.5rem;
+        line-height: -10rem;
+    }
+    blockquote:after {
+        font-size: 1.5rem;
+        line-height: -10rem;
+    }
+    p {
+        font-size: 1.05rem;
+        margin-bottom: 1rem;
+    }
+    .main_title:nth-of-type(odd) {
+        text-align: center;
+    }
+    .main_title:nth-of-type(even) {
+        text-align: center;
+    }
+    .contact_form h1 {
+        margin-bottom: -0.5rem;
+    }
+    label {
+        margin-bottom: -1rem;
+        margin-top: 0.5rem;
+        margin-right: 1rem;
+    }
+    .form_names,
+    .form_names2,
+    input[type=submit] {
+        float: left;
+        margin-left: 11%;
+        align-content: center;
+        width: 70%;
+    }
+    input[type=reset] {
+        float: left;
+        margin-left: 11%;
+        align-content: center;
+        width: 70%;
+    }
+    /*display by button on movies pages*/
+    nav.btn {
+        margin: 0 auto;
+        margin-top: 2%;
+        max-width: 10rem;
+    }
+    nav.btn a {
+        background-color: #f7f7f7;
+        text-decoration: none;
+    }
+    nav.btn ul {
+        display: flex;
+        position: relative;
+        margin-left: -30%;
+        background-color: black;
+        list-style: none;
+    }
+    nav.btn ul li {
+        font-size: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    nav.btn ul li a {
+        margin-left: 0.5rem;
+    }
+    div.dropdown nav ul li ul {
+        top: 2rem;
+        left: -5.3rem;
+        max-width: 14.5rem;
+    }
+    div.dropdown nav ul li:hover ul {
+        width: 16.1rem;
+        height: 12.5rem;
+    }
+    div.movie_drop nav ul li ul {
+        top: 2rem;
+        max-width: 15rem;
+        left: -6.5rem;
+        text-align: center;
+    }
+    div.movie_drop nav ul li:hover ul {
+        text-align: center;
+    }
+}
+
+
+/*ipad*/
+
+@media screen and (min-device-width: 768px) and (max-device-height: 1024px) {
+    h1 {
+        font-size: 1.75rem;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
+    .all_content h2 {
+        font-size: 1.7rem;
+        margin-top: 1rem;
+    }
+    .main_title img {
+        max-width: 100%;
+        margin-bottom: 1rem;
+    }
+    img {
+        max-width: 70%;
+    }
+    .logo {
+        max-width: 60%;
+    }
+    nav a {
+        font-size: 1.25rem;
+    }
+    nav.btn {
+        max-width: 70%;
+    }
+    .all_content {
+        padding: 1rem 1rem 1rem;
+    }
+    blockquote {
+        margin: 0.8rem 0.625rem;
+        font-size: 2rem;
+        margin-bottom: -0.25rem;
+    }
+    blockquote:before {
+        font-size: 1.5rem;
+        line-height: -10rem;
+    }
+    blockquote:after {
+        font-size: 1.5rem;
+        line-height: -10rem;
+    }
+    p {
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+    }
+    .main_title:nth-of-type(odd) {
+        text-align: center;
+    }
+    .main_title:nth-of-type(even) {
+        text-align: center;
+    }
+    .contact_form h1 {
+        margin-bottom: -0.5rem;
+    }
+    label {
+        margin-bottom: -1rem;
+        margin-top: 0.5rem;
+    }
+    .form_names,
+    .form_names2,
+    input[type=submit] {
+        float: left;
+        margin-left: 12%;
+        width: 70%;
+    }
+    input[type=submit] {
+        float: right;
+        width: 15%;
+        /*first box going inward from entire background*/
+        .all_content {
+            background-color: #06070f;
+            margin: 0;
+            padding: 1rem 0 1rem;
+        }
+        .all_content>h1,
+        .main_title {
+            padding: 0.625rem;
+            padding: 0.3125rem;
+        }
+        .main_title,
+        .slides {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 1rem;
+        }
+        .main_title:nth-of-type(odd) {
+            background-color: #6ba4ff;
+            display: flex;
+        }
+        .main_title:nth-of-type(even) {
+            background-color: #142857;
+            display: flex;
+            justify-content: space-between;
+        }
+        .biography {
+            background-color: #6ba4ff;
+            justify-content: space-between;
+            padding: 1rem 2.5rem;
+        }
+        .hero-profile {
+            width: 50%;
+        }
+        .hero-desc {
+            width: 50%;
+        }
+        .movie-profile {
+            width: 50%;
+        }
+        .movie-stats {
+            width: 50%;
+        }
+        .villain-profile {
+            width: 50%;
+        }
+        .villain-desc {
+            width: 50%;
+        }
+        /*contact form dimensions and such...*/
+        .contact_form {
+            background-color: #6ba4ff;
+            text-align: center;
+            padding-top: 1rem;
+            padding-bottom: 2rem;
+            display: center;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            font-family: Roboto, sans-serif;
+            font-weight: 700;
+            color: white;
+            font-size: 1.3rem;
+            text-align: center;
+        }
+        input[type=text],
+        select,
+        textarea {
+            width: 100%;
+            padding: 0.75rem;
+            border: 0.05rem solid #ccc;
+            border-radius: 0.5rem;
+            resize: vertical;
+        }
+        label {
+            margin-top: -1rem;
+            margin-bottom: 2rem;
+            padding: inherit;
+            display: inline-block;
+        }
+        input[type=submit] {
+            background-color: red;
+            color: white;
+            padding: 0.75rem 1.25rem;
+            border: none;
+            border-radius: 0.25rem;
+            cursor: pointer;
+            float: right;
+            font-size: 1.1rem;
+            margin-right: 2.5rem;
+            margin-top: 1rem;
+        }
+        input[type=submit]:hover {
+            background-color: black;
+        }
+        input[type=reset] {
+            background-color: red;
+            color: white;
+            padding: 0.75rem 1.25rem;
+            border: none;
+            border-radius: 0.25rem;
+            cursor: pointer;
+            float: left;
+            margin-left: 2.5rem;
+            font-size: 1.1rem;
+            margin-top: 1rem;
+        }
+        input[type=reset]:hover {
+            background-color: black;
+        }
+        .form_names {
+            float: left;
+            width: 20%;
+            padding-top: 0.6rem;
+            padding-left: 1rem;
+        }
+        .form_names2 {
+            float: left;
+            width: 65%;
+            padding-top: 0.5rem;
+        }
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .alt_title .all_content h1 {
+            font-family: Roboto, sans-serif;
+            font-size: 2rem;
+            margin-bottom: 1.875rem;
+            color: #1B262C;
+        }
+        h1 {
+            font-family: Roboto, sans-serif;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            margin-top: 1rem;
+            color: white;
+        }
+        b,
+        h2 {
+            font-family: Roboto, sans-serif;
+            margin-bottom: -0.5rem;
+            color: white;
+            font-size: 1.625rem;
+        }
+        .all_content h2 {
+            font-family: Roboto, sans-serif;
+            font-size: 1.625rem;
+            margin-top: 2rem;
+            margin-bottom: 0.9375rem;
+            color: white;
+        }
+        div h2 {
+            font-family: Roboto, sans-serif;
+            margin-bottom: 1.25rem;
+            color: white;
+            font-size: 1.5625rem;
+        }
+        h3 {
+            font-family: Verdana, sans-serif;
+            margin-bottom: 0.625rem;
+            color: white;
+            font-size: 1.3125rem;
+        }
+        blockquote {
+            margin: 1.5rem 0.625rem;
+            font-family: Verdana, sans-serif;
+            color: white;
+            font-size: 1.125rem;
+            margin-bottom: 1.25rem;
+        }
+        blockquote:before {
+            color: white;
+            content: open-quote;
+            font-size: 2rem;
+            line-height: 0.1rem;
+            vertical-align: -0.4rem;
+        }
+        blockquote:after {
+            content: close-quote;
+            color: white;
+            font-size: 2rem;
+            line-height: 0.1rem;
+            vertical-align: -0.4rem;
+        }
+        blockquote p {
+            display: inline;
+        }
+        p {
+            font-family: Verdana, sans-serif;
+            color: white;
+            font-size: 1.125rem;
+            margin-bottom: 2.5rem;
+        }
+        body {
+            /*entire background of page*/
+            background: #06070f;
+            font-size: 1rem;
+            text-align: center;
+            padding: 1rem 1rem 2rem;
+            max-width: 80rem;
+            margin: 0 auto;
+        }
+        a {
+            font-family: Verdana, sans-serif;
+            color: #6ba4ff;
+        }
+        a:hover {
+            color: #cf171d;
+        }
+        /*display by button on movies pages*/
+        nav.btn {
+            background-color: #f7f7f7;
+            margin-right: 2.75rem;
+            margin-left: 2.75rem;
+            margin: 0 auto;
+            margin-top: 2%;
+            max-width: 40%;
+        }
+        nav.btn a {
+            color: black;
+            text-decoration: none;
+        }
+        nav.btn ul {
+            text-align: left;
+            display: inline;
+            padding: 1rem;
+            list-style: none;
+        }
+        nav.btn ul li {
+            font-size: 1.125rem;
+            font-family: Verdana, sans-serif;
+            font-style: normal;
+        }
+        nav.btn ul a:hover {
+            background-color: lightgray;
+        }
+        /*main navigation bar*/
+        nav {
+            background-color: #cf171d;
+            margin-bottom: 1.1875rem;
+            margin-top: 1.25rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            float: none;
+        }
+        nav ul a {
+            text-align: left;
+            padding: 1rem 2rem;
+        }
+        nav ul a:hover {
+            color: black;
+        }
+        /*dimensions of main navigation bar (text)*/
+        nav ul li {
+            font: bold 1rem sans-serif;
+            font-size: 1rem;
+            display: inline-block;
+            position: relative;
+            padding: 1rem;
+            font-style: italic;
+        }
+        /* when you hover over navigation and dropdown menus */
+        nav ul li a:hover {
+            background-color: white;
+            font-style: normal;
+        }
+        .logo {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100%;
+            height: auto;
+        }
+        div.stan {
+            margin-bottom: 1.25rem;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        /*dropdown for heroes and villains*/
+        div.dropdown nav {
+            text-align: center;
+            margin-bottom: 1.5625rem;
+            margin-left: 3.75rem;
+            margin-right: 3.75rem;
+            margin-top: 0.625rem;
+            max-width: 18rem;
+            margin: 0 auto;
+            margin-bottom: 2rem;
+        }
+        div.dropdown nav ul li ul {
+            padding: 0rem 0rem 0rem 3rem;
+            position: absolute;
+            top: 1.5rem;
+            left: -5.5rem;
+            display: none;
+            visibility: hidden;
+        }
+        div.dropdown nav ul li ul li {
+            background: #cf171d;
+            display: block;
+        }
+        div.dropdown nav ul a {
+            margin-left: -3.5rem;
+            display: block;
+            margin-top: -1rem;
+            margin-bottom: -1rem;
+        }
+        div.dropdown nav ul a:hover {
+            color: black;
+        }
+        div.dropdown nav ul li:hover ul {
+            display: block;
+            opacity: 1;
+            visibility: visible;
+            width: 18.125rem;
+            overflow-y: scroll;
+            height: 14rem;
+            background-color: #cf171d;
+        }
+        /*dropdown for movies and movies2 pages*/
+        div.movie_drop nav {
+            text-align: center;
+            margin-bottom: 1.5625rem;
+            margin-left: 3.75rem;
+            margin-right: 3.75rem;
+            margin-top: 0.625rem;
+            max-width: 18rem;
+            margin: 0 auto;
+            margin-bottom: 2rem;
+        }
+        div.movie_drop nav ul li ul li {
+            background-color: #cf171d;
+            display: block;
+        }
+        div.movie_drop nav ul a {
+            margin-left: -3.5rem;
+            display: block;
+            margin-top: -1rem;
+            margin-bottom: -1rem;
+        }
+        div.movie_drop nav ul a:hover {
+            color: black;
+        }
+        div.movie_drop nav ul li ul {
+            padding: 0rem 0rem 0rem 3rem;
+            position: absolute;
+            top: 1rem;
+            left: -6.75rem;
+            display: none;
+            visibility: hidden;
+        }
+        div.movie_drop nav ul li:hover ul {
+            display: block;
+            visibility: visible;
+            width: 18rem;
+            overflow-y: scroll;
+            height: 14rem;
+            background-color: #cf171d;
+        }
+        #myBtn {
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            /* Fixed/sticky position */
+            bottom: 20px;
+            /* Place the button at the bottom of the page */
+            right: 30px;
+            /* Place the button 30px from the right */
+            z-index: 99;
+            /* Make sure it does not overlap */
+            border: none;
+            /* Remove borders */
+            outline: none;
+            /* Remove outline */
+            background-color: red;
+            /* Set a background color */
+            color: white;
+            /* Text color */
+            cursor: pointer;
+            /* Add a mouse pointer on hover */
+            padding: 15px;
+            /* Some padding */
+            border-radius: 10px;
+            /* Rounded corners */
+            font-size: 18px;
+            /* Increase font size */
+        }
+        #myBtn:hover {
+            background-color: #555;
+            /* Add a dark-grey background on hover */
+        }
+        /* Responsive navigation menu (for phone-sized devices) */
+        @media screen and (max-width: 600px) {
+            h1 {
+                font-size: 1.75rem;
+                margin-bottom: 1rem;
+                margin-top: 0.5rem;
+            }
+            .all_content h2 {
+                font-size: 1.7rem;
+                margin-top: 1rem;
+            }
+            .all_content,
+            .movieTitle h2 {
+                margin-top: -1.25rem;
+            }
+            .main_title img {
+                max-width: 90%;
+                margin-top: 1rem;
+            }
+            .main_title {
+                flex-direction: column;
+            }
+            .villain-profile,
+            .villain-desc {
+                width: 100%;
+            }
+            .villain-desc {
+                order: 1;
+            }
+            .hero-profile,
+            .hero-desc {
+                width: 100%;
+            }
+            .hero-desc {
+                order: 1;
+            }
+            .movie-profile,
+            .movie-stats {
+                width: 100%;
+            }
+            .movie-stats {
+                order: 1;
+            }
+            .movie-stats h2 {
+                font-size: 1.2rem;
+            }
+            img {
+                max-width: 60%;
+            }
+            .logo {
+                max-width: 50px;
+            }
+            /*main navigation bar*/
+            nav ul a {
+                text-align: center;
+                padding: 1rem 1rem;
+                margin-left: -2.3rem;
+            }
+            /*dimensions of main navigation bar (text)*/
+            nav ul li {
+                font-size: 0.95rem;
+                padding: 0.5rem 0.5rem;
+            }
+            .all_content {
+                padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+            }
+            blockquote {
+                margin: 0.8rem 0.625rem;
+                font-size: 1rem;
+                margin-bottom: -0.25rem;
+            }
+            blockquote:before {
+                font-size: 1.5rem;
+                line-height: -10rem;
+            }
+            blockquote:after {
+                font-size: 1.5rem;
+                line-height: -10rem;
+            }
+            p {
+                font-size: 1.05rem;
+                margin-bottom: 1rem;
+            }
+            .main_title:nth-of-type(odd) {
+                text-align: center;
+            }
+            .main_title:nth-of-type(even) {
+                text-align: center;
+            }
+            .contact_form h1 {
+                margin-bottom: -0.5rem;
+            }
+            label {
+                margin-bottom: -1rem;
+                margin-top: 0.5rem;
+                margin-right: 1rem;
+            }
+            .form_names,
+            .form_names2,
+            input[type=submit] {
+                float: left;
+                margin-left: 11%;
+                align-content: center;
+                width: 70%;
+            }
+            input[type=reset] {
+                float: left;
+                margin-left: 11%;
+                align-content: center;
+                width: 70%;
+            }
+            /*display by button on movies pages*/
+            nav.btn {
+                margin: 0 auto;
+                margin-top: 2%;
+                max-width: 10rem;
+            }
+            nav.btn a {
+                background-color: #f7f7f7;
+                text-decoration: none;
+            }
+            nav.btn ul {
+                display: flex;
+                position: relative;
+                margin-left: -30%;
+                background-color: black;
+                list-style: none;
+            }
+            nav.btn ul li {
+                font-size: 1rem;
+                display: flex;
+                flex-wrap: wrap;
+                padding: 0;
+            }
+            nav.btn ul li a {
+                margin-left: 0.5rem;
+            }
+            div.dropdown nav ul li ul {
+                top: 2rem;
+                left: -5.3rem;
+                max-width: 14.5rem;
+            }
+            div.dropdown nav ul li:hover ul {
+                width: 16.1rem;
+                height: 12.5rem;
+            }
+            div.movie_drop nav ul li ul {
+                top: 2rem;
+                max-width: 15rem;
+                left: -6.5rem;
+                text-align: center;
+            }
+            div.movie_drop nav ul li:hover ul {
+                text-align: center;
+            }
+        }
+        /*ipad*/
+        @media screen and (min-device-width: 768px) and (max-device-height: 1024px) {
+            h1 {
+                font-size: 1.75rem;
+                margin-bottom: 0.5rem;
+                margin-top: 0.5rem;
+            }
+            .all_content h2 {
+                font-size: 1.7rem;
+                margin-top: 1rem;
+            }
+            .main_title img {
+                max-width: 100%;
+                margin-bottom: 1rem;
+            }
+            img {
+                max-width: 70%;
+            }
+            .logo {
+                max-width: 60%;
+            }
+            nav a {
+                font-size: 1.25rem;
+            }
+            nav.btn {
+                max-width: 70%;
+            }
+            .all_content {
+                padding: 1rem 1rem 1rem;
+            }
+            blockquote {
+                margin: 0.8rem 0.625rem;
+                font-size: 2rem;
+                margin-bottom: -0.25rem;
+            }
+            blockquote:before {
+                font-size: 1.5rem;
+                line-height: -10rem;
+            }
+            blockquote:after {
+                font-size: 1.5rem;
+                line-height: -10rem;
+            }
+            p {
+                font-size: 1.25rem;
+                margin-bottom: 1rem;
+            }
+            .main_title:nth-of-type(odd) {
+                text-align: center;
+            }
+            .main_title:nth-of-type(even) {
+                text-align: center;
+            }
+            .contact_form h1 {
+                margin-bottom: -0.5rem;
+            }
+            label {
+                margin-bottom: -1rem;
+                margin-top: 0.5rem;
+            }
+            .form_names,
+            .form_names2,
+            input[type=submit] {
+                float: left;
+                margin-left: 12%;
+                width: 70%;
+            }
+            input[type=submit] {
+                float: right;
+                width: 15%;
+            }
+            input[type=reset] {
+                float: left;
+                width: 15%;
+            }
+            div.dropdown nav ul li ul {
+                top: 2rem;
+                left: -3.65rem;
+            }
+            div.dropdown nav ul li:hover ul {
+                width: 16.1rem;
+                height: 12.5rem;
+            }
+            div.movie_drop nav ul li ul {
+                top: 2rem;
+                left: -2.75rem;
+                text-align: center;
+            }
+            div.movie_drop nav ul li:hover ul {
+                text-align: center;
+            }
+        }
+    }
+    input[type=reset] {
+        float: left;
+        width: 15%;
+    }
+    div.dropdown nav ul li ul {
+        top: 2rem;
+        left: -3.65rem;
+    }
+    div.dropdown nav ul li:hover ul {
+        width: 16.1rem;
+        height: 12.5rem;
+    }
+    div.movie_drop nav ul li ul {
+        top: 2rem;
+        left: -2.75rem;
+        text-align: center;
+    }
+    div.movie_drop nav ul li:hover ul {
+        text-align: center;
+    }
+}
