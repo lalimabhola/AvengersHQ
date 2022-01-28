@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avengers HQ</title>
+    <link rel="icon" href="red_logo.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script defer src="script.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="new_logo.png" alt="Avengers logo"></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="heroes.html">Heroes</a></li>
+                <li><a href="villains.html">Villains</a></li>
+                <li><a href="movies.html">Movies</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="all_content">
+            <h1>Welcome to the World of the Avengers</h1>
+
+            <div class="main_title">
+                <img class="slides" src="movies/iron_man1.jpg" alt="iron man 1" height="333" width="500">
+                <img class="slides" src="movies/avengers1.jpg" alt="avengers 1" height="333" width="500">
+                <img class="slides" src="movies/ca_firstAvenger.jpg" alt="captain america first avenger" height="333" width="500">
+                <img class="slides" src="movies/avengers2.jpg" alt="age of ultron" height="333" width="500">
+                <img class="slides" src="movies/spiderman_homecoming.jpg" alt="spider-man homecoming" height="333" width="500">
+                <img class="slides" src="movies/avengers3.jpg" alt="avengers infinity war" height="333" width="500">
+                <img class="slides" src="movies/captain_marvel.jpg" alt="captain marvel" height="333" width="500">
+                <img class="slides" src="movies/avengers4.jpg" alt="avengers endgame" height="333" width="500">
+            </div>
+
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+        </section>
+    </main>
+    <footer>
+        <p>Source material based off of information at <a href="https://www.marvel.com/">Marvel.com</a>, <a href="https://marvel.fandom.com/wiki/Marvel_Database">Fandom: Marvel Database</a> and <a href="https://www.biography.com/media-figure/stan-lee">Biography.com</a></p>
+    </footer>
+
+    <script>
+        w3.slideshow(".slides", 2000);
+
+    </script>
+</body>
+
+</html>
