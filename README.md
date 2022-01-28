@@ -7,7 +7,7 @@ Website hosted on the TCNJ web server
 Designed using HTML, CSS, and JavaScript for IMM130: Design Fundamentals for the Web
 
 ## Files
-Code folder: contains all HTML, CSS, and JavaScript code
+Code folder: contains all HTML, CSS, and JavaScript code  
 Images: contains favicon, logos, movie poster pictures, character pictures
 
 ## Usage
