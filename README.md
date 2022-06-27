@@ -10,7 +10,7 @@ Designed using HTML, CSS, and JavaScript for IMM130: Design Fundamentals for the
 Code folder: contains all HTML, CSS, and JavaScript code  
 Images: contains favicon, logos, movie poster pictures, character pictures
 
-## Usage
+## Link to View
 http://owd.tcnj.edu/~bholal1/imm130/v12-2021-05-11/
 
 ## Credits
