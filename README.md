@@ -10,8 +10,8 @@ Designed using HTML, CSS, and JavaScript for IMM130: Design Fundamentals for the
 Code folder: contains all HTML, CSS, and JavaScript code  
 Images: contains favicon, logos, movie poster pictures, character pictures
 
-## Link to View
-http://owd.tcnj.edu/~bholal1/imm130/v12-2021-05-11/
+## How to View
+Download code folder and open index.html page in your desired web browser
 
 ## Credits
 Code written by Lalima Bhola  
