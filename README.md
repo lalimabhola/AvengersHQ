@@ -11,7 +11,7 @@ Code folder: contains all HTML, CSS, and JavaScript code
 Images: contains favicon, logos, movie poster pictures, character pictures
 
 ## How to View
-Download code folder and open index.html page in your desired web browser
+Download repository (you need 'code' and 'images' folders), open index.html (inside 'code' folder) in your desired web browser
 
 ## Credits
 Code written by Lalima Bhola  
